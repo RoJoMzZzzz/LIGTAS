@@ -1,0 +1,135 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  font: normal 100%/1.4 sans-serif;
+  background: #dedcdc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin:0;
+  padding:0;
+
+  min-height: 100vh;
+}
+
+html{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  width:100%;
+  height:60px;
+  background: #fff;
+  border-top: 10px solid #188110;
+
+}
+
+.tab{
+  height:50px;
+  width:25%;
+  float:left;
+  color: #188110;
+  font-size:10px;
+}
+.tab1{
+  height:60px;
+  width:25%;
+  float:left;
+  color: #188110;
+  font-size:10px;
+  background: url(images/tabBg1.png);
+  border:0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom:2px solid #fff;
+  cursor:pointer;
+
+  border-bottom:2px solid #188110;
+
+}
+.tab2{
+  height:60px;
+  width:25%;
+  float:left;
+  color: #188110;
+  font-size:10px;
+  background: url(images/tabBg2.png);
+  border:0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom:2px solid #fff;
+  cursor:pointer;
+
+}
+.tab3{
+  height:60px;
+  width:25%;
+  float:left;
+  color: #188110;
+  font-size:10px;
+  background: url(images/tabBg3.png);
+  border:0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom:2px solid #fff;
+  cursor:pointer;
+
+}
+.tab4{
+  height:60px;
+  width:25%;
+  float:left;
+  color: #188110;
+  font-size:10px;
+  background: url(images/tabBg4.png);
+  border:0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom:2px solid #fff;
+  cursor:pointer;
+
+}
+
+.tab1:focus, .tab2:focus; .tab3:focus; .tab4:focus{
+  outline:none;
+}
+
+
+.tab1-line{
+  
+border-bottom:2px solid #188110;
+}
+.tab2-line{
+  
+border-bottom:2px solid #188110;
+}
+.tab3-line{
+  
+border-bottom:2px solid #188110;
+}
+.tab4-line{
+  
+border-bottom:2px solid #188110;
+}
+
+
+.iframeA{
+  position: relative; 
+  top: 0; 
+  right: 0; 
+  bottom: 0: 
+  left: 0;
+  z-index: 1;
+}
+
+/*
+.iframeA{
+  border:none;
+  border-bottom:1px solid
+}
+
+*/
